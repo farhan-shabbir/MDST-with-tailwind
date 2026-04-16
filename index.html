@@ -1,19 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.2.0"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
-</head>
-<body >
-     <body class="bg-[#F7F7F3] ml-3">
+  </head>
+  <body class="bg-[#F7F7F3] md:ml-15 md:mr-8 ml-5">
     <div class="flex justify-center  ">
     <h3 class="font-bold leading-tight p-3 ">COMING SOON</h3>
     </div>
     <hr class="text-gray-500">
-    <div class="flex justify-center ">
+    <div class="flex justify-center  ">
         <img class="p-5   " src="Images/logo.avif" alt="">
     </div>
 
@@ -74,7 +73,7 @@
               <div class="flex space-x-4 ">
                 <!-- Current: "bg-gray-950/50 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" -->
                 <a
-                  href="index.html"
+                  href="#"
                   aria-current="page"
                   class="rounded-md  px-3 py-2 text-md font-medium text-gray-500 hover:font-bold hover:underline"
                   >HOME</a
@@ -121,7 +120,7 @@
           
           
           <a
-            href="index.html"
+            href="#"
             class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 "
             >HOME</a
           >
@@ -136,43 +135,33 @@
       </el-disclosure>
     </nav>
 
-    <div class="mt-5 mb-6">
-      <div class="flex justify-center ">
-        <img class="lg:w-[800px] md:w-[600px] w-[300px]" src="Images/ONE.gif"  alt="">
-      </div >
-      <div class="flex justify-center">
-        <img class="lg:w-[770px] md:w-[570px] w-[270px]" src="Images/tow.webp" alt="">
-      </div>
-      <div class="flex justify-center">
-        <img class="lg:w-[770px] md:w-[570px] w-[270px] mt-5" src="Images/three.gif" alt="">
-      </div>
-      <div class="flex justify-center">
-        <img class="lg:w-[770px] md:w-[570px] w-[270px] mt-5" src="Images/four.gif" alt="">
-      </div>
-      <div class="flex justify-center">
-        <img class="lg:w-[770px] md:w-[570px] w-[270px] mt-5" src="Images/five.gif" alt="">
-      </div>
-      <div class="flex justify-center">
-        <img class="lg:w-[770px] md:w-[570px] w-[270px] mt-5 mb-5" src="Images/six.gif" alt="">
-      </div>
+   
+     <!-- image section -->
+
+    <div class="container  md:gap-10 grid sm:grid-cols-1 md:grid-cols-2 m-5 ">
+        
+            <div class=" grid columns-sm-12 columns-lg-9  ">
+                <img class=" lg:h-89 lg:w-[850px]" src="Images/Landing_Page_Mock_Up.webp" alt="">
+           </div>
+            <div class=" pl-3  md:pl-9 grid columns-sm-12 columns-md-3  ">
+                <img  src="Images/SMART_AI_SEARCH_22.webp" class="object-cover md:h-60 lg:h-96 lg:w-90 "  alt="">
+            </div>
     </div>
-    <br><br>
-     
-      
-    <div class="md:pl-16 px-2 pb-10">
+
+    <div class="md:pl-16 pb-10">
         <h2 class=" text-3xl  font-medium">
             JOIN THE WAITLIST: BE FIRST TO SHOP OUR MODEST COLLECTION WHEN WE LAUNCH.
         </h2>
     </div>
 
-      <footer>
+    <footer>
         
         <div class=" flex md:flex-row md:justify-between flex-col " >
             <div class="flex justify-center ">
-            <input class="md:ml-17 md:p-4 p-2 rounded-md bg-white border-[0.001rem] border-gray-500n " type="text" placeholder="Enter your email">
+            <input class="md:ml-17 md:p-4 p-2 rounded-md bg-white border-[0.001rem] border-gray-500" type="text" placeholder="Enter your email">
             <button class=" md:p-4 p-2  rounded-md bg-[#303B43] border-2   text-white hover:cursor-pointer hover:scale-105">Subscribe</button>
             </div>
-            <div class="m-5 flex md:justify-end justify-center ">
+            <div class="m-4 flex md:justify-end justify-center">
                 <i class="fa-brands fa-facebook mr-5"></i>
                 <i class="fa-brands fa-instagram mr-5"></i>
                 <i class="fa-brands fa-tiktok mr-5"></i>
@@ -181,19 +170,26 @@
     </footer>
 
     <hr class="text-gray-400 mt-9">
-    <div class="flex justify-center h-[100px] ">
+    <div class="flex justify-center ">
       
         <p class="text-sm text-gray-400 mt-6 ">
            ©   2025, MDST Market · 28 Church Street,
         Winchester, MA 01890
         </p>
     </div>
+   
+    
+   
 
 
+   
+
+    
 
     <script
       src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1"
       type="module"
     ></script>
-</body>
+
+  </body>
 </html>
